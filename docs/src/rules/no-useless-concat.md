@@ -30,11 +30,11 @@ Examples of **incorrect** code for this rule:
 
 var a = `some` + `string`;
 
-// these are the same as "10"
+// these are the same as "10"   (Why are these four examples identical??  Very confusing) 
 var a = '1' + '0';
-var a = '1' + `0`;
-var a = `1` + '0';
-var a = `1` + `0`;
+var a = 1 + `0`;
+var a = `1` + 0;
+var a = 1 + 0;
 ```
 
 :::
